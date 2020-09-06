@@ -1,0 +1,15 @@
+try to explore sql optimizer for multi query/common query
+
+common use cases: 
+- multi-dimensional query in data warehouse(OLAP)
+- multiple query optimization
+
+some concepts: 
+- relational algebra
+- lattices
+- materialized views / summary tables
+- data cube
+
+references: 
+- Harinarayan, V. and Rajaraman, A. and Ullman, J. (1995) Implementing Data Cubes Efficiently. Technical Report. Stanford InfoLab. (Publication Note: ACM International Conference on Management of Data, Montreal (SIGMOD 1996), June 4-6, 1996, Quebec, Canada. Best Paper Award.)
+- https://www.slideshare.net/julianhyde/dont-optimize-my-queries-organize-my-data
